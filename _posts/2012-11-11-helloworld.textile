@@ -10,7 +10,13 @@ meta: 2012年11月11日 - 深圳
 
 <section>
 <h2>section 1</h2>
-<p>Section1 The quick brown fox jumps over the lazy dog. 微软拼音输入法。</p>
+<p>Section1 The quick brown fox jumps over the lazy dog. 微软拼音输入法。
+{% highlight ruby linenos %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+</p>
 </section>
 
 <section>

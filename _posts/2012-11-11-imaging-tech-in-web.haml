@@ -1,0 +1,46 @@
+---
+layout: post
+title: 浏览器中的图形技术
+meta: 2012年11月11日 - 深圳
+---
+%section
+  %h2 介绍
+  %p 在浏览器中展示图形大致有如下几种办法：
+  %ol
+    %li 静态图片 jpg,gif,png,WebP
+    %li 矢量图 SVG,VML,VRML,CSS3
+    %li 图形字符 "\E0D5"
+    %li Canvas
+    %li WebGL
+  %p 
+    当然还有
+    %a{:title=>'CSS Triangle', :href=>'http://css-tricks.com/snippets/css/css-triangle/'} 非常geek的方法
+    。
+
+
+%section
+  %h2 静态图片
+  %p
+    web中常见的图片格式有jpg,gif,png三种，这三种格式各有优劣势，要使用哪种格式完全取决于具体的应用场景。假如你要展示一副精美的风光，那么高质量的jpg无疑是最佳选择，它能够表达更丰富的颜色，并且在保证视觉效果的同时尽可能的减小图片体积。你可以在
+    %a{:title=>'bing.com',:href=>'http://bing.com'}bing.com
+    的首页看到这种情况。
+  %p
+    gif格式最明显的特点是可以显示很酷的动画，同时保持很小的体积。这让web世界变得更加丰富多彩。
+  %p.to-center
+    %img{:src=>"http://mazingtech.com/img/image/news1108/cinemagraphs-20.gif",:width=>"500",:height=>"281"}/
+  %p
+    同时gif格式还支持透明，这扩大了它的适用范围。
+  %p
+    png是相对较新的一种格式，不支持动画，但支持更多的颜色和任意透明度，同时也有不错的压缩比。
+  %p.to-center
+    %img{:src=>"http://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/PNG_transparency_demonstration_2.png/280px-PNG_transparency_demonstration_2.png",:width=>"280",:height=>"210"}/
+  %p
+    webp是Google发明的一种全新的图片格式，他是开放并且免费的，意在取代版权归商业组织的jpg格式。webp相比jpg，优势是在同样的显示效果下webp文件体积更小更适合web传输，目前有chrome等少数浏览器支持这种格式。
+  %p.to-center
+    %img{:src=>"https://www.gstatic.com/webp/gallery/4.sm.jpg",:width=>"320",:height=>"241",:title=>"jpg 24.3KB"}/
+    %img{:src=>"https://www.gstatic.com/webp/gallery/4.sm.webp",:width=>"320",:height=>"241",:title=>"webp 20.2KB"}/
+
+%section
+  %h2 矢量图
+  %p
+    to be continued...

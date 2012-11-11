@@ -1,22 +1,28 @@
+.to-center{
+	text-align:center;
+}
 #post {
-	background:#fefefe;
+	background-color:#fefefe;
 	height:100%;
 }
 #post .win-backbutton{
 	position:absolute;
 	top:40px;
 	left:20px;
+	z-index:2;
 }
 #post h1{
 	position:absolute;
 	left:120px;
 	top:100px;
+	z-index:2;
 }
 #post .meta{
 	position:absolute;
 	left:120px;
 	top:160px;
 	color:#aaa;
+	z-index:2;
 }
 #post .content{
 	position:absolute;
@@ -47,6 +53,7 @@
 	height:100%;
 	padding-top:32px;
 	overflow-x:auto;
+	overflow-y:hidden;
 	position:relative;
 
 	display:  -ms-flexbox;
@@ -68,14 +75,22 @@
 }
 
 #post .content section h2{
-position:absolute;
-top:0;
-left:0;
+	position:absolute;
+	top:0;
+	left:0;
 }
 
 #post .content p{
-margin:16px 0px;
-width:600px;
-padding-right:40px;
-line-height:1.75;
+	margin:16px 0px;
+	width:600px;
+	padding-right:40px;
+	line-height:1.75;
+}
+
+#post .content ul,#post .content ol{
+	margin:0;
+	padding:0 0 0 20px;
+	width:100%;
+	box-sizing:border-box;
+	line-height:1.75;
 }
